@@ -1,0 +1,27 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.homeImg {
+  margin-top: 12px;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('../assets/fundo-alphanet.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .homeImg {
+    width: 0;
+    height: 0;
+  }
+}

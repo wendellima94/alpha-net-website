@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  /* background: linear-gradient(#c73e1d,#f18f01 ); */
+  background: linear-gradient(#4c934c,#91cb3e );
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.listContainer {
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textMenu {
+  color: #3b1f2b;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.textMenu:hover {
+  color: #fff;
+  text-shadow: chartreuse;
+}
+
+.linkItem {
+  padding: 20px;
+}

@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  height: 6vh;
+  background-color: var(--pink);
+  top: 0;
+  position: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact {
+  font-size: var(--font);
+  padding: 40px;
+  color: #fff;
+  font-weight: bold;
+}
