@@ -12,10 +12,10 @@ const About = () => {
         <a target="_blank" href="https://www.instagram.com/alphanetguaruja/?fbclid=IwAR1_ud8iXPqbe83yLrxmSYBq265Ho2o6-BZwo7XRTuGclaKuUjw5Tn_deR8">
           <BsInstagram />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="/" target="_blank">
           <BsTelephoneOutboundFill />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="/" target="_blank">
           <BsWhatsapp />
         </a>
       </section>
