@@ -3,13 +3,13 @@
   height: 100vh;
 
   position: fixed;
-  top: 50%;
+  top: 30%;
 }
 .container a {
   padding: 10px;
 }
 .iconsContainer {
-  width: 40%;
+  width: 1%;
   display: flex;
   align-items: space-around;;
   justify-content: space-evenly;
