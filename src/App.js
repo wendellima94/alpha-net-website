@@ -22,8 +22,8 @@ function App() {
               </a>
             </li>
             <li className="nav-item">
-              <a className={styles.linkItem} href="#sobre">
-                <span className={styles.textMenu}>Sobre</span>
+              <a className={styles.linkItem} href="#empresarial">
+                <span className={styles.textMenu}>Plano Empresarial</span>
               </a>
             </li>
           </div>
@@ -42,12 +42,12 @@ function App() {
         <h4 id="planos">
           <Plans />
         </h4>
-        <h4 id="sobre">
-          <About />
+        <h4 id="empresarial">
+        <Gif />
         </h4>
       </div>
       <div>
-        <Gif />
+          <About />
       </div>
     </div>
   );
