@@ -3,6 +3,7 @@ import About from "./components/about";
 import Content from "./components/content";
 import Plans from "./components/plans";
 import styles from "./styles/Nav.module.css";
+import Gif from "./components/gifs";
 
 function App() {
   return (
@@ -10,19 +11,19 @@ function App() {
       <nav id="navbar-example2" className={styles.container}>
         <ul className="nav nav-pills">
           <div className={styles.listContainer}>
-          <li className="nav-item">
+            <li className="nav-item">
               <a className={styles.linkItem} href="#home">
                 <span className={styles.textMenu}>Inicio</span>
               </a>
             </li>
             <li className="nav-item">
               <a className={styles.linkItem} href="#planos">
-              <span className={styles.textMenu}>Planos</span>
+                <span className={styles.textMenu}>Planos</span>
               </a>
             </li>
             <li className="nav-item">
               <a className={styles.linkItem} href="#sobre">
-              <span className={styles.textMenu}>Sobre</span>
+                <span className={styles.textMenu}>Sobre</span>
               </a>
             </li>
           </div>
@@ -44,6 +45,9 @@ function App() {
         <h4 id="sobre">
           <About />
         </h4>
+      </div>
+      <div>
+        <Gif />
       </div>
     </div>
   );
