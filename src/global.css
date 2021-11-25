@@ -4,7 +4,7 @@ body {
   margin: 0;
 
   font-family: 'Anton', sans-serif;
-  background-color: #FFC63C
+  background-image: linear-gradient(#fecc4a 100%, #fed766 50% ,#fecc4a 00% );
 
 }
 

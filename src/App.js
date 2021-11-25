@@ -4,7 +4,6 @@ import Content from "./components/content";
 import Plans from "./components/plans";
 import styles from "./styles/Nav.module.css";
 import Gif from "./components/gifs";
-
 function App() {
   return (
     <div classNameName="App">
@@ -43,11 +42,11 @@ function App() {
           <Plans />
         </h4>
         <h4 id="empresarial">
-        <Gif />
+          <Gif />
         </h4>
       </div>
       <div>
-          <About />
+        <About />
       </div>
     </div>
   );

@@ -1,6 +1,10 @@
 .container {
-height: 100vh;
-width: 100vw;
+  height: 110vh;
+  width: 100vw;
+  background-image: url("../assets/gifAnimado.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .AnimateGif {
@@ -9,8 +13,13 @@ width: 100vw;
 }
 
 @media screen and (max-width: 720px) {
-  .AnimateGif {
-    background: url('../assets/planoempresa.gif');
-    background-size: cover;
+  .container {
+    margin-top: 240px;
+    width: 100vw;
+    height: 70vh;
+    background: url("../assets/9.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
