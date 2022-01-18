@@ -4,6 +4,7 @@ import Content from "./components/content";
 import Plans from "./components/plans";
 import styles from "./styles/Nav.module.css";
 import Gif from "./components/gifs";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
             <li className="nav-item">
               <a className={styles.linkItem} href="#empresarial">
                 <span className={styles.textMenu}>Plano Empresarial</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className={styles.linkItem} href="#footer">
+                <span className={styles.textMenu}>Contato</span>
               </a>
             </li>
           </div>
@@ -49,6 +55,9 @@ function App() {
       <div>
         <About />
       </div>
+      <h4 id="footer">
+        <Footer />
+      </h4>
     </div>
   );
 }

@@ -3,8 +3,6 @@ import styles from '../../styles/Gif.module.css';
 
 
 function Gif() {
- 
-
   return (
     <div className={styles.container}>
     </div>

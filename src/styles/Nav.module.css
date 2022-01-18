@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width: 720px) {
+  .container {
+    height: auto;
+  }
   .listContainer {
     width: 50vw;
     display: flex;

@@ -29,7 +29,7 @@
 @media screen and (max-width: 680px) {
   .container {
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     background-image: url('../assets/fundo-alphanet.png');
     background-repeat: no-repeat;
     background-size: 100%;
