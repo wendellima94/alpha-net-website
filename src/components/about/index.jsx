@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles/About.module.css'
-import { BsFacebook, BsInstagram, BsTelephoneOutboundFill, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const About = () => {
   var iconSize = 30
